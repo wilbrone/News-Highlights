@@ -1,6 +1,6 @@
-# PassWord Locker
+# News Highlight
 
-#### PassWord Locker App, 9th Nov, 2019
+#### News Highlight App, 17th Nov, 2019
 #### By **Wilbrone**
 ## Description
 This app allows users to store their credentials and other social media account details. For users to use the app they have to log in 
@@ -8,12 +8,12 @@ or creat an account on the app. When creating the account credentials the user i
 
 ## Technologies Used
 This project was build using Python3.6.
+Flask and 
+Deployed on Heroku
 
 
 ## BDD
-Once the user runs the program they are prompted with two choices, if they have an account on the app or not, if not they will have to create an account before they log in. If they do have an account they will just login, if the log in details are incorrect the system will give them a message and exit. If the logins are correct they move on th the next satge. Here they get options which are, they can create social media credentials by choosing `cc` or see the credentials they added by choosing `dc` . They also have an option of logging out by entering `ex`. When a User chooces to display there credentials and they have none, the system checks if they credential array for the logged in user is equal or less than `0` they will get a message telling them that they do not have any credentials saved yet, and ask tem to add or create a new one.
-When a user decides to create a new credential, they will be asked to enetr the media for which they are creating the credentials, the user name and the email they will use. they are also to either enter their password or let the system generate for them. They can save the changes.
-they can add as many credentials as they would have.
+this app shows various news sources in the world. these sources are accessed from the news api and the secret api key. Once one clicks on the specific news source or desired news source, the link goes to a new path that shows the articles written by the news source and the date and time it was created or published. from there the user can skim through the many articles, and once they get an interesting news they can get to open the article which will navigate the user to the original page of the news source.
 
 
 ## Development server
