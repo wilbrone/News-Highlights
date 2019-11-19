@@ -9,9 +9,6 @@ def index():
 	'''
 	view root page function that returns the index the page and its data
 	'''
-	# sports_sources = get_sources('sports')
-	# technology_sources = get_sources('technology')
-	# entertainment_sources = get_sources('entertainment')
 	sources = get_sources()
 	title = "News Highlighter"
 
